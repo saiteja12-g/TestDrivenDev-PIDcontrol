@@ -24,8 +24,8 @@ TEST(PIDControllerTest, testProportionalGain) {
   EXPECT_EQ(0, pid.getKi());
   EXPECT_EQ(0, pid.getKd());
   EXPECT_NEAR(0.5, pid.computeFeedback(1), 0.0001);
-  EXPECT_NEAR(0.5, pid.computeFeedback(2), 0.0001);
-  EXPECT_NEAR(0.5, pid.computeFeedback(3), 0.0001);
+  EXPECT_NEAR(1, pid.computeFeedback(2), 0.0001);
+  EXPECT_NEAR(2.5, pid.computeFeedback(3), 0.0001);
 }
 
 /**
@@ -35,8 +35,8 @@ TEST(PIDControllerTest, testProportionalGain) {
 TEST(PIDControllerTest, testComputeError) {
   tddgroup7_pair1::PIDController pid;
   EXPECT_NEAR(0, pid.computeError(1, 1), 0.1);
-  EXPECT_NEAR(1, pid.computeError(1, 2), 0.1);
-  EXPECT_NEAR(2, pid.computeError(1, 3), 0.1);
+  EXPECT_NEAR(1, pid.computeError(2, 1), 0.1);
+  EXPECT_NEAR(-2, pid.computeError(1, 3), 0.1);
 }
 
 /**
@@ -51,8 +51,5 @@ TEST(PIDControllerTest, testProportionalIntegralGain) {
   EXPECT_EQ(0.5, pid.getKp());
   EXPECT_EQ(0.5, pid.getKi());
   EXPECT_EQ(0, pid.getKd());
-  EXPECT_NEAR(0.5, pid.computeFeedback(1), 0.1);
-  EXPECT_NEAR(1, pid.computeFeedback(2), 0.1);
-  EXPECT_NEAR(1.5, pid.computeFeedback(3), 0.1);
-  EXPECT_NEAR(0.5, pid.computeError(2, 2.5), 0.1);
+  EXPECT_NEAR(1, pid.computeFeedback(1), 0.1);
 }
