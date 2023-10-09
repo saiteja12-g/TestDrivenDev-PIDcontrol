@@ -26,11 +26,7 @@ class PIDController {
    * 
    */
   PIDController();
-  /**
-   * @brief Destroy the PIDController object
-   * 
-   */
-  ~PIDController();
+  
   /**
    * @brief Compute the error
    * 

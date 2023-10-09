@@ -1,7 +1,6 @@
 /**
  * @file PIDController.cpp
- * @author (Part 1) Darshit Desai (darshit@umd.edu) - Driver, Sameer Arjun S (ssarjun@umd.edu) - Navigator
- *         (Part 2) Sai Teja Gilukara (saitejag@umd.edu) - Driver, Abir Ahsan Akib (aakib@umd.edu) - Navigator
+ * @author (Part 1) Sai Teja Gilukara (saitejag@umd.edu) - Driver, Aaqib Barodawala (aakib@umd.edu) - Navigator
  * @brief CPP file for PIDController class
  * @version 0.1
  * @date 2023-10-06
@@ -10,7 +9,7 @@
  * 
  */
 
-#include "PIDController.hpp"
+#include "../include/PIDController.hpp"
 
 /**
  * @brief Construct a new PIDController::PIDController object

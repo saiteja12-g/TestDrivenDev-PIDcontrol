@@ -1,7 +1,7 @@
 /**
  * @file main.cpp
- * @author Darshit Desai (darshit@umd.edu)
- * @brief Main file for running tests
+ * @author Sai Teja Giluara (saitejag@umd.edu) - Driver, Aaqib Barodawala (aakib@umd.edu) - Navigator
+ * @brief main file for calling all tests
  * @version 0.1
  * @date 2023-10-09
  * 

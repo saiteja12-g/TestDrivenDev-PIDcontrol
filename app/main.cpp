@@ -1,6 +1,6 @@
 /**
  * @file main.cpp
- * @author Sai Teja Gilukara (saitejag@umd.edu)
+ * @author Sai Teja Giluara (saitejag@umd.edu) - Driver, Aaqib Barodawala (aakib@umd.edu) - Navigator
  * @brief A program to run the control system using PIDController class
  * @version 0.1
  * @date 2023-10-09

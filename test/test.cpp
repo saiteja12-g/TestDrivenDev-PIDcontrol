@@ -1,3 +1,13 @@
+/**
+ * @file test.cpp
+ * @author Sai Teja Giluara (saitejag@umd.edu) - Driver, Aaqib Barodawala (aakib@umd.edu) - Navigator
+ * @brief 
+ * @version 0.1
+ * @date 2023-10-09
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include <gtest/gtest.h>
 #include "../include/PIDController.hpp"
 
