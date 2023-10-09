@@ -90,7 +90,7 @@ double tddgroup7_pair1::PIDController::getKd() {
  * 
  * @param kp 
  */
-void tddgroup7_pair1::PIDController::setKp(double kp) {
+void tddgroup7_pair1::PIDController::setKp(double Kp) {
   /**
    * @todo Set the Kp value
    * 
@@ -101,7 +101,7 @@ void tddgroup7_pair1::PIDController::setKp(double kp) {
  * 
  * @param ki 
  */
-void tddgroup7_pair1::PIDController::setKi(double ki) {
+void tddgroup7_pair1::PIDController::setKi(double Ki) {
   /**
    * @todo Set the Ki value
    * 
@@ -112,7 +112,7 @@ void tddgroup7_pair1::PIDController::setKi(double ki) {
  * 
  * @param kd 
  */
-void tddgroup7_pair1::PIDController::setKd(double kd) {
+void tddgroup7_pair1::PIDController::setKd(double Kd) {
   /**
    * @todo Set the Kd value
    * 
